@@ -1,0 +1,9 @@
+In this project, I applied key Python programming skills to analyze real-world bike share data from three major U.S. cities—Chicago, New York City, and Washington. The goal was to build an interactive terminal-based application that allowed users to filter data by city, month, and day of the week, and then view meaningful statistics based on their selections.
+
+Using the pandas library, I efficiently loaded and manipulated large datasets, transforming columns like 'Start Time' to extract features such as month, day, and hour. This enabled me to calculate the most frequent travel times, popular stations, and typical trip durations. I used groupby(), mode(), and value_counts() functions to identify trends in the data, such as the most common start and end stations or the most frequent trip combinations.
+
+I also implemented error handling and input validation using while loops and string normalization (e.g., .lower(), .strip()) to ensure that the program gracefully handled unexpected user input. A user-friendly feature was added to display raw data in increments of five rows, allowing users to explore the dataset without being overwhelmed.
+
+An extra feature I developed was an hourly usage report, which grouped the number of rides by day and hour. This provided deeper insight into usage patterns throughout the week. I also accounted for missing data in some cities (e.g., gender and birth year in Washington) using conditional statements to avoid runtime errors.
+
+Overall, this project demonstrated my ability to use Python for data cleaning, transformation, analysis, and interaction. I applied good coding practices such as modular function design, informative print statements, and readable formatting, making the application both effective and user-friendly. It reinforced my confidence in using Python and pandas to solve practical data problems.
